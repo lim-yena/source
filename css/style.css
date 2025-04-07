@@ -1820,3 +1820,7 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 .eventBoard .gTable3 {
   display: none;
 }
+
+.eventBoard .topTable + table {
+  display: none;
+}
