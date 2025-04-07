@@ -70,7 +70,7 @@ window.addEventListener("DOMContentLoaded", () =>{
     noticeList?.classList.add('noticeList');
 
 
-    let eventBoard = document.querySelector('input[name="table_id"]')?.parentElement;
+    let eventBoard = document.querySelector('input[value="table_1744012380"]')?.parentElement;
     while (eventBoard && eventBoard.tagName !== 'TABLE') eventBoard = eventBoard.parentElement;
     eventBoard?.classList.add('eventBoard');
 
