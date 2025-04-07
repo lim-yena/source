@@ -1816,3 +1816,7 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 #winw #green20_80518 .bxSlide80518_G1 > div > li {
   padding-bottom: 0 !important;
 }
+
+.eventBoard .gTable3 {
+  display: none;
+}
