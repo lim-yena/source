@@ -68,6 +68,13 @@ window.addEventListener("DOMContentLoaded", () =>{
     let noticeList = document.querySelector('input[value="table_1742889064"]')?.parentElement;
     while (noticeList && noticeList.tagName !== 'TABLE') noticeList = noticeList.parentElement;
     noticeList?.classList.add('noticeList');
+
+
+    let eventBoard = document.querySelector('input[name="table_id"]')?.parentElement;
+    while (eventBoard && eventBoard.tagName !== 'TABLE') eventBoard = eventBoard.parentElement;
+    eventBoard?.classList.add('eventBoard');
+
+
       
       
     let orderList = document.querySelector('input[value="orderlist"]')?.closest('form').querySelector('.bssTable');
