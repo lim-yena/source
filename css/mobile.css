@@ -57,7 +57,7 @@ input[value="1454418"] ~ table:first-of-type {
   margin-bottom: 20px;
 }
 
-input[value="1454418"] ~ table:first-of-type > tbody > tr > td {
+input[value="1454418"] ~ table:first-of-type > tbody > tr > td:nth-of-type(1) {
   height: 100px !important;
   border-radius: 10px;
   overflow: hidden;
