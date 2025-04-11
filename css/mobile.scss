@@ -30,9 +30,12 @@ input[value="table_1744012380"] ~ table #list_table > tbody > tr > td > table:nt
 input[value="table_1744012380"] ~ table #list_table > tbody > tr > td > table:nth-child(2) > tbody > tr:nth-of-type(4) {position:absolute; bottom:100%; left:0;}
 
 
+
 input[value="1454418"] ~ table:first-of-type {width: 100%; border-radius: 10px; padding: 20px; background: #fafafa; margin-bottom: 20px;}
 input[value="1454418"] ~ table:first-of-type > tbody > tr > td {height: 100px !important; border-radius: 10px; overflow: hidden; position: relative; z-index: 0;}
 input[value="1454418"] ~ table:first-of-type > tbody > tr:first-of-type {width: 100%; font-weight: bold;}
+input[value="1454418"] ~ table:first-of-type > tbody > tr:nth-of-type(2) {color:#000 !important;}
+input[value="1454418"] ~ table:first-of-type > tbody > tr:nth-of-type(3) a {padding: 10px 20px; display: block; background: #000; color: #fff; font-size: 14px; border-radius: 10px;}
 
 body {margin-top:50px !important;}
 .header {height:50px !important; position:fixed; top:0; left:0; width:100%; z-index:11; background:#fff;}

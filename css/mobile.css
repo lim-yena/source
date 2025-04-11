@@ -70,6 +70,19 @@ input[value="1454418"] ~ table:first-of-type > tbody > tr:first-of-type {
   font-weight: bold;
 }
 
+input[value="1454418"] ~ table:first-of-type > tbody > tr:nth-of-type(2) {
+  color: #000 !important;
+}
+
+input[value="1454418"] ~ table:first-of-type > tbody > tr:nth-of-type(3) a {
+  padding: 10px 20px;
+  display: block;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
 body {
   margin-top: 50px !important;
 }
