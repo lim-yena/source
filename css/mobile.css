@@ -6,7 +6,18 @@ input[value=table_1742281392] ~ table #list_table .drop {
   filter: brightness(0.98);
 }
 
-input[value=table_1742281392] ~ table #list_table > tbody > tr {
+input[value=table_1742281392] ~ table #list_table > tbody > tr > td:nth-child(2) {
+  display: none;
+}
+
+input[value=table_1742281392] ~ table #list_table > tbody > tr > td {
+  width: 50%;
+  position: absolute;
+  padding-bottom: 70%;
+}
+
+input[value=table_1742281392] ~ table #list_table > tbody > tr > td > table {
+  width: 100%;
   display: block;
   position: absolute;
   top: 0;
@@ -16,18 +27,6 @@ input[value=table_1742281392] ~ table #list_table > tbody > tr {
   border-radius: 10px;
   overflow: hidden;
   z-index: 0;
-}
-
-input[value=table_1742281392] ~ table #list_table > tbody > tr > td:nth-child(2) {
-  display: none;
-}
-
-input[value=table_1742281392] ~ table #list_table > tbody > tr > td {
-  width: 50%;
-}
-
-input[value=table_1742281392] ~ table #list_table > tbody > tr > td > table {
-  width: 100%;
 }
 
 body {
