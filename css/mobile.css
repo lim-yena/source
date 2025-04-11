@@ -1,5 +1,5 @@
-input[value=table_1742281392] ~ table {
-  background: #000;
+input[value=table_1742281392] ~ table #list_table .drop {
+  filter: brightness(0.98);
 }
 
 body {
@@ -12,6 +12,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 11;
   background: #fff;
+}
+
+.header .logoArea {
+  line-height: 50px !important;
 }
