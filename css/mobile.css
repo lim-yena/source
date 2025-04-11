@@ -4,7 +4,7 @@ input[value=table_1742281392] ~ table #list_table {
 
 input[value=table_1742281392] ~ table #list_table .drop {
   filter: brightness(0.98);
-  background-size: cover;
+  background-size: cover !important;
   height: 220px;
   border: 0 !important;
   border-radius: 10px;
@@ -15,16 +15,21 @@ input[value=table_1742281392] ~ table #list_table > tbody > tr > td:nth-child(2)
 }
 
 input[value=table_1742281392] ~ table #list_table > tbody > tr > td {
-  width: 50%;
+  width: 49%;
+  padding-left: 2%;
 }
 
 input[value=table_1742281392] ~ table #list_table > tbody > tr > td > table {
   width: 100%;
 }
 
-input[value=table_1742281392] ~ table #list_table > tbody > tr > td > table:nth-child(2) {
+input[value=table_1742281392] ~ table #list_table > tbody > tr > td > table:nth-child(2) > tbody > tr > td {
   width: 100% !important;
-  font-size: 16px;
+  padding: 0 !important;
+}
+
+input[value=table_1742281392] ~ table #list_table > tbody > tr > td > table:nth-child(2) > tbody > tr > td > div {
+  font-size: 16px !important;
   font-weight: bold;
   padding: 12px 6px !important;
 }
