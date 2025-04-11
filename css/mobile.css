@@ -80,6 +80,17 @@ input[value="1454418"] ~ table:first-of-type > tbody > tr > td:nth-of-type(2) > 
   border-radius: 10px;
 }
 
+input[value="1454418"] ~ table:first-of-type > tbody > tr > td:nth-of-type(2) > table > tbody > tr:nth-of-type(3) {
+  position: absolute;
+  right: 0;
+}
+
+input[value="1454418"] ~ table:first-of-type > tbody > tr > td:nth-of-type(2) > table > tbody > tr:nth-of-type(4) {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+}
+
 body {
   margin-top: 50px !important;
 }
