@@ -49,7 +49,7 @@ input[value=table_1744012380] ~ table #list_table > tbody > tr > td > table:nth-
   left: 0;
 }
 
-input[value=table_1742281392] ~ table:first-of-type {
+input[value="1454418"] ~ table:first-of-type {
   width: 100%;
   border-radius: 10px;
   padding: 20px;
@@ -57,7 +57,7 @@ input[value=table_1742281392] ~ table:first-of-type {
   margin-bottom: 20px;
 }
 
-input[value=table_1742281392] ~ table:first-of-type > tbody > tr > td {
+input[value="1454418"] ~ table:first-of-type > tbody > tr > td {
   height: 100px !important;
   border-radius: 10px;
   overflow: hidden;
@@ -65,7 +65,7 @@ input[value=table_1742281392] ~ table:first-of-type > tbody > tr > td {
   z-index: 0;
 }
 
-input[value=table_1742281392] ~ table:first-of-type > tbody > tr:first-of-type {
+input[value="1454418"] ~ table:first-of-type > tbody > tr:first-of-type {
   width: 100%;
   font-weight: bold;
 }
