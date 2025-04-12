@@ -127,8 +127,16 @@ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr:first-of-type > 
   display: none;
 }
 
-input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > th {
+input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > th,
+input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > td {
   height: auto !important;
+  padding: 0 !important;
+}
+
+input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > th {
+  color: #000 !important;
+  font-weight: bold !important;
+  padding-right: 10px;
 }
 
 body {

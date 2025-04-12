@@ -45,7 +45,9 @@ input[name="s_puid"] ~ table:first-of-type > tbody > tr > td:nth-of-type(2) > ta
 input[name="s_puid"] ~ table:first-of-type > tbody > tr > td:nth-of-type(2) > table > tbody > tr:nth-of-type(4) {position: absolute; top: 0; left:0;}
 
 input[name="s_puid"] ~ table:nth-of-type(2) .gTable2 > tbody > tr:first-of-type > th {display:none;}
-input[name="s_puid"] ~ table:nth-of-type(2) .gTable2 > tbody > tr > th {height:auto !important;}
+input[name="s_puid"] ~ table:nth-of-type(2) .gTable2 > tbody > tr > th, 
+input[name="s_puid"] ~ table:nth-of-type(2) .gTable2 > tbody > tr > td {height:auto !important; padding:0 !important;}
+input[name="s_puid"] ~ table:nth-of-type(2) .gTable2 > tbody > tr > th {color:#000 !important; font-weight:bold !important; padding-right:10px;}
 
 
 
