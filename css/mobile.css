@@ -202,7 +202,7 @@ input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr[id^=a_ment] > td
 
 .layout-bar .drops_ .drop {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   max-width: 240px;
   padding: 20px;
@@ -212,6 +212,11 @@ input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr[id^=a_ment] > td
   position: static;
 }
 
+.layout-bar .drops_ .drop_menu {
+  top: 100%;
+  min-width: 240px;
+}
+
 .layout-bar .drops_ .drop_menu .on {
   top: 0;
   height: initial;
@@ -219,6 +224,10 @@ input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr[id^=a_ment] > td
   padding: 20px 10px;
   padding: 15px 20px;
   border-left: 0;
+}
+
+.layout-bar .pathCopys {
+  margin-right: 20px !important;
 }
 
 body {
