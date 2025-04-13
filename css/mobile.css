@@ -205,7 +205,7 @@ input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr[id^=a_ment] > td
   justify-content: space-between;
   align-items: center;
   max-width: 240px;
-  padding: 20px;
+  padding: 15px 20px;
 }
 
 .layout-bar .drops_ .arr_down {
@@ -228,6 +228,12 @@ input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr[id^=a_ment] > td
 
 .layout-bar .pathCopys {
   margin-right: 20px !important;
+}
+
+.layout-bar > div[style="width:70%;float:left;"] {
+  max-width: 240px;
+  border-right: 1px solid #ddd;
+  padding: 15px 20px;
 }
 
 body {
