@@ -152,7 +152,7 @@ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > th {
   padding-right: 10px !important;
 }
 
-input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > td #imgSize {
+input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > td#imgSize {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #000;
   margin: 0 !important;
