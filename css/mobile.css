@@ -159,6 +159,14 @@ input[value=REVIEW] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody
   width: 100% !important;
 }
 
+input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td[bgcolor=cccccc] {
+  background: #ddd !important;
+}
+
+input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td[width="120"] {
+  display: none !important;
+}
+
 body {
   margin-top: 50px !important;
 }

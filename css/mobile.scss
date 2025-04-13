@@ -54,6 +54,11 @@ input[value="REVIEW"] ~ input[name="s_puid"] ~ table:nth-of-type(2) .gTable2 > t
 
 
 
+input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr > td[bgcolor="cccccc"] {background:#ddd !important;}
+input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr > td[width="120"] {display:none !important;}
+
+
+
 body {margin-top:50px !important;}
 .header {height:50px !important; position:fixed; top:0; left:0; width:100%; z-index:11; background:#fff;}
 .header .logoArea {line-height:50px !important;}
