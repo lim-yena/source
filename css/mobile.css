@@ -212,15 +212,15 @@ input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > select
 
 input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > input {
   height: auto !important;
-  padding: 15px 10px;
-  border-bottom: 1px solid #000;
+  padding: 15px 10px !important;
+  border-bottom: 1px solid #000 !important;
 }
 
 input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > a {
-  position: static;
+  position: static !important;
   width: 130px !important;
   display: block;
-  background: #000;
+  background: #000 !important;
   color: #fff !important;
   border-radius: 10px;
 }
