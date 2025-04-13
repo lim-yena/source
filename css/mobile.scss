@@ -61,12 +61,16 @@ input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr[id^="a_ment"] 
 input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr[id^="a_ment"] > td:last-of-type {padding:30px 5px !important;}
 
 
-.layout-bar {margin: 0 !important; padding: 0 !important; width: 100% !important; font-size: 16px !important; border-bottom: 1px solid #ddd !important;}
+input[value="공지사항"] ~ table > tbody > tr:first-of-type > td > div {display: flex; width: 100%; height: auto; background: #fff; padding: 0;}
+input[value="공지사항"] ~ table > tbody > tr:first-of-type > td[bgcolor="f5f5f5"], input[value="공지사항"] ~ table > tbody > tr:first-of-type > td[bgcolor="8c8c8c"] {display:none !important;}
+
+
+.layout-bar {margin: 0 !important; padding: 0 !important; width: 100% !important; font-size: 14px !important; border-bottom: 1px solid #ddd !important;}
 .layout-bar .drops_ {top:0 !important; width:240px !important; border-right:1px solid #ddd; width:240px;}
 .layout-bar .drops_ .drop {display: flex; justify-content: space-between; align-items: center; max-width:240px; padding:15px 20px;}
 .layout-bar .drops_ .arr_down {position:static;}
 .layout-bar .drops_ .drop_menu {top:100%; min-width:240px;}
-.layout-bar .drops_ .drop_menu .on {top:0; height:initial; line-height:initial; padding:20px 10px; padding: 15px 20px; border-left: 0;}
+.layout-bar .drops_ .drop_menu .on {top:0; height:initial; line-height:initial; padding:20px 10px; padding: 15px 20px; border-left: 0; font-size:14px !important;}
 .layout-bar .pathCopys {margin-right:20px !important;}
 .layout-bar > div[style="width:70%;float:left;"] {max-width: 240px; border-right: 1px solid #ddd; padding:15px 20px;}
 
