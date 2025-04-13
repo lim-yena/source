@@ -53,10 +53,12 @@ input[value="REVIEW"] ~ input[name="s_puid"] ~ table:nth-of-type(2) .gTable2 > t
 input[value="REVIEW"] ~ input[name="s_puid"] ~ table:nth-of-type(2) .gTable2 > tbody > tr > td#imgSize {border-top: 1px solid #ddd; border-bottom: 1px solid #000; margin:0 !important; width:100% !important;}
 
 
-input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr > td {width:100% !important;}
+input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr > td {width:100% !important; background: #fff !important; color: #000;}
 input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr > td[bgcolor="cccccc"] {background:#ddd !important;}
 input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr > td[width="120"] {display:none !important;}
+input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr > td[width="1080"] {font-weight:bold !important;}
 input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr#a_ment0 > td:first-of-type {display:none !important;}
+input[value="FAQ"] ~ table > tbody > tr > td > table > tbody > tr#a_ment0 > td:last-of-type {padding:30px 5px !important;}
 
 
 

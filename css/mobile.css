@@ -161,6 +161,8 @@ input[value=REVIEW] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody
 
 input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td {
   width: 100% !important;
+  background: #fff !important;
+  color: #000;
 }
 
 input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td[bgcolor=cccccc] {
@@ -171,8 +173,16 @@ input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td[width="120"
   display: none !important;
 }
 
+input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td[width="1080"] {
+  font-weight: bold !important;
+}
+
 input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr#a_ment0 > td:first-of-type {
   display: none !important;
+}
+
+input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr#a_ment0 > td:last-of-type {
+  padding: 30px 5px !important;
 }
 
 body {
