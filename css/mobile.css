@@ -185,6 +185,14 @@ input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr[id^=a_ment] > td
   padding: 30px 5px !important;
 }
 
+.layout-bar {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  font-size: 16px !important;
+  border-bottom: 1px solid #ddd !important;
+}
+
 body {
   margin-top: 50px !important;
 }
@@ -201,4 +209,8 @@ body {
 
 .header .logoArea {
   line-height: 50px !important;
+}
+
+div[style*="text-align:right"] {
+  margin: 0 !important;
 }
