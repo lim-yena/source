@@ -177,11 +177,11 @@ input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td[width="1080
   font-weight: bold !important;
 }
 
-input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr#a_ment0 > td:first-of-type {
+input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr[id^=a_ment] > td:first-of-type {
   display: none !important;
 }
 
-input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr#a_ment0 > td:last-of-type {
+input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr[id^=a_ment] > td:last-of-type {
   padding: 30px 5px !important;
 }
 
