@@ -615,6 +615,7 @@ input[name=dupInfo] ~ table .gTable > tbody > tr > td > table {
 input[name=dupInfo] ~ table .gTable > tbody > tr:first-of-type > td > table > tbody > tr > td {
   display: flex;
   flex-wrap: wrap;
+  height: auto;
 }
 
 input[name=dupInfo] ~ table .gTable > tbody > tr:first-of-type > td > table > tbody > tr > td > div {
