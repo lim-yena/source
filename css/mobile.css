@@ -470,12 +470,12 @@ input[value=cart] ~ .npTable > tbody > tr > td .big.cbtn {
   width: 95% !important;
 }
 
-input[value=orderlist] .gTable > tbody > tr {
+input[value=orderlist] ~ div:first-of-type .gTable > tbody > tr {
   display: flex;
   flex-wrap: wrap;
 }
 
-input[value=orderlist] .gTable > tbody > tr > th, input[value=orderlist] .gTable > tbody > tr > td {
+input[value=orderlist] ~ div:first-of-type .gTable > tbody > tr > th, input[value=orderlist] .gTable > tbody > tr > td {
   width: 100% !important;
 }
 
