@@ -328,6 +328,22 @@ input[value=고객센터] ~ table .gTable > tbody > tr > td > input {
   height: auto !important;
 }
 
+input[value=고객센터] ~ table > tbody > tr:nth-of-type(2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input[value=고객센터] ~ table > tbody > tr:nth-of-type(2) .cbtn.black, input[value=고객센터] ~ table > tbody > tr:nth-of-type(2) .cbtn.black:visited {
+  font-size: 14px !important;
+  padding: 8px 16px !important;
+  color: #fff !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  background-color: #212121 !important;
+  border-radius: 5px !important;
+}
+
 .layout-bar {
   margin: 0 !important;
   padding: 0 !important;
