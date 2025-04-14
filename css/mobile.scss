@@ -129,9 +129,11 @@ input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap {width:86
 input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap a.login_go {margin:10px 0 0 !important;}
 
 
-
+.policy-step {border:none !important;}
 .policy-step .step-box:first-of-type {border-radius:10px 0 0 10px;}
 .policy-step .step-box:last-of-type {border-radius:0 10px 10px 0;}
+
+.bTable textarea {border-radius:10px !important;}
 
 
 
