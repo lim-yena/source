@@ -435,7 +435,7 @@ input[value=cart] ~ .npTable .ShopTable > tbody > tr > td {
   padding: 0 10px 10px !important;
 }
 
-input[value=cart] ~ .npTable .ShopTable > tbody > tr > td input {
+input[value=cart] ~ .npTable .ShopTable > tbody > tr > td input[type=text] {
   width: 100% !important;
   padding: 10px !important;
   height: auto !important;
