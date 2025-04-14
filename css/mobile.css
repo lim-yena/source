@@ -356,17 +356,21 @@ input[value=고객센터] ~ table > tbody > tr:nth-of-type(2) .cbtn.black:visite
   border-radius: 5px !important;
 }
 
-#DivOptTable > tbody > tr:first-of-type {
+input[value=cart] ~ table {
+  display: block !important;
+}
+
+input[value=cart] ~ table #DivOptTable > tbody > tr:first-of-type {
   display: none !important;
 }
 
-#DivOptTable > tbody > tr table > tbody > tr {
+input[value=cart] ~ table #DivOptTable > tbody > tr table > tbody > tr {
   display: flex !important;
   flex-wrap: wrap !important;
   position: relative;
 }
 
-#DivOptTable > tbody > tr table > tbody > tr > td {
+input[value=cart] ~ table #DivOptTable > tbody > tr table > tbody > tr > td {
   width: 100% !important;
   padding: 0 !important;
   border: 0 !important;
@@ -374,7 +378,7 @@ input[value=고객센터] ~ table > tbody > tr:nth-of-type(2) .cbtn.black:visite
   background: none !important;
 }
 
-#DivOptTable > tbody > tr table > tbody > tr > td.amount_table_3 {
+input[value=cart] ~ table #DivOptTable > tbody > tr table > tbody > tr > td.amount_table_3 {
   position: absolute;
   top: 0;
   right: 0;
