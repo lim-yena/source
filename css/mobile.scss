@@ -121,10 +121,10 @@ input[value="orderlist"] ~ div:first-of-type > table > tbody > tr > td .big.cbtn
 
 .mo_content {position:relative;}
 .mo_content .cart_price_wrap a {padding: 15px !important; border-radius: 10px !important; width: 100% !important; line-height: normal !important; font-size: 14px !important; height: auto !important; margin-bottom: 10px !important; text-align:center !important; border:1px solid #ddd; border-radius:10px;}
-.mo_content .order_info_wrap .login_btn {position:absolute; float: none;}
+.mo_content .order_info_wrap .login_btn {position:absolute; float: none; top: 55%;}
 .mo_content .order_info_wrap .login_st input {font-size:14px !important;}
-.mo_content .order_padding {padding: 0px 2% 20px !important;}
-.mo_content .cart_price_wrap a.login_go {margin-top:0 !important;}
+.mo_content .order_padding {padding: 0 2% !important;}
+.mo_content .cart_price_wrap a.login_go {margin:0 auto 40px !important;}
 
 
 
