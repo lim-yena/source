@@ -300,6 +300,10 @@ input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > td#i
   padding: 0 !important;
 }
 
+input[value=기획전] ~ input[name=order_review_uid] ~ table > tbody > tr > td > table:first-of-type {
+  display: none !important;
+}
+
 input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr {
   display: flex;
   flex-direction: column;
