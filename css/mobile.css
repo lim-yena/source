@@ -311,6 +311,10 @@ input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > 
   border-bottom: 1px solid #ddd;
 }
 
+input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr > th {
+  font-weight: bold;
+}
+
 input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr > th,
 input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr > td {
   width: 100% !important;
