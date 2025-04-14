@@ -98,12 +98,12 @@ input[value="cart"] ~ table #DivOptTable > tbody > tr table > tbody > tr > td {w
 input[value="cart"] ~ table #DivOptTable > tbody > tr table > tbody > tr > td.amount_table_3 {position: absolute; top:0; right:0; width:auto !important;}
 
 
-input[value="cart"] ~ .npTable .ShopTable > tbody > tr {display:flex; flex-wrap: wrap; border-bottom:1px solid #ddd;}
+input[value="cart"] ~ .npTable .ShopTable > tbody > tr {display:flex; flex-wrap: wrap; border-bottom:1px solid #ddd; height:auto !important;}
 input[value="cart"] ~ .npTable .ShopTable > tbody > tr > th,
 input[value="cart"] ~ .npTable .ShopTable > tbody > tr > td {display: block; width:100%; height:auto !important; border:none !important; font-size:14px !important; background:none !important; font-size:14px !important;}
-input[value="cart"] ~ .npTable .ShopTable > tbody > tr > th {padding:10px 10px 2px !important; font-weight:bold; color:#000; font-weight:bold !important;}
+input[value="cart"] ~ .npTable .ShopTable > tbody > tr > th {padding:10px 10px 5px !important; font-weight:bold; color:#000; font-weight:bold !important;}
 input[value="cart"] ~ .npTable .ShopTable > tbody > tr > td {padding:0 10px 10px !important;}
-input[value="cart"] ~ .npTable .ShopTable > tbody > tr > td input {width:100% !important; padding:5px 10px !important; height:auto !important;}
+input[value="cart"] ~ .npTable .ShopTable > tbody > tr > td input {width:100% !important; padding:10px !important; height:auto !important; border:1px solid #ddd !important;}
 
 
 
