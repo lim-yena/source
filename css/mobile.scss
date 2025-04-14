@@ -10,7 +10,7 @@ input[value="table_1742281392"] ~ table #list_table .drop,
 input[value="table_1744012380"] ~ table #list_table .drop {
     filter: brightness(0.98); background-size:cover !important; padding-bottom: 70%; border:0 !important; border-radius:10px;
 }
-input[value="table_1742281392"] ~ table #list_table > tbody > tr {display: flex; gap: 5px;}
+input[value="table_1742281392"] ~ table #list_table > tbody > tr, input[value="table_1744012380"] ~ table #list_table > tbody > tr {display: flex; gap: 5px;}
 input[value="table_1742281392"] ~ table #list_table > tbody > tr > td:nth-child(2), 
 input[value="table_1744012380"] ~ table #list_table > tbody > tr > td:nth-child(2){
     display:none;
@@ -74,7 +74,7 @@ input[value="공지사항"] ~ table > tbody > tr:first-of-type > td > div {displ
 input[value="공지사항"] ~ table > tbody > tr:first-of-type > td > div > select {width:100% !important; border-bottom:1px solid #000 !important; height:auto !important; border-bottom: 1px solid #000; padding:15px 10px; font-size:14px; color:#000; font-weight:600; }
 input[value="공지사항"] ~ table > tbody > tr:first-of-type > td > div > select:focus, input[value="공지사항"] ~ table > tbody > tr:first-of-type > td > div > input {outline:none;}
 input[value="공지사항"] ~ table > tbody > tr:first-of-type > td > div > input {height:auto !important; padding:15px 10px !important; border-bottom:1px solid #000 !important; width:calc(100% - 70px) !important;}
-input[value="공지사항"] ~ table > tbody > tr:first-of-type > td > div > input > img {filter: invert(1);}
+input[value="공지사항"] ~ table > tbody > tr:first-of-type > td > div > a > img {filter: invert(1);}
 input[value="공지사항"] ~ table > tbody > tr:first-of-type > td > div > a {position: static !important; width:60px !important; display:block; background:#000 !important; color:#fff !important; border-radius:10px; height:auto !important; text-align:center; padding:5px 0;}
 input[value="공지사항"] ~ table > tbody > tr > td[height="25"] {display: none;}
 

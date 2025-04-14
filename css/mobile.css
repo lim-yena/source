@@ -19,7 +19,7 @@ input[value=table_1744012380] ~ table #list_table .drop {
   border-radius: 10px;
 }
 
-input[value=table_1742281392] ~ table #list_table > tbody > tr {
+input[value=table_1742281392] ~ table #list_table > tbody > tr, input[value=table_1744012380] ~ table #list_table > tbody > tr {
   display: flex;
   gap: 5px;
 }
@@ -231,7 +231,7 @@ input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > input 
   width: calc(100% - 70px) !important;
 }
 
-input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > input > img {
+input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > a > img {
   filter: invert(1);
 }
 
