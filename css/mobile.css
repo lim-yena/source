@@ -509,7 +509,6 @@ input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
 .mo_content .cart_price_wrap a {
   padding: 15px !important;
   border-radius: 10px !important;
-  width: 100% !important;
   line-height: normal !important;
   font-size: 14px !important;
   height: auto !important;
@@ -532,6 +531,7 @@ input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
 
 .mo_content .order_padding {
   padding: 0 2% !important;
+  margin: 0 !important;
 }
 
 .mo_content .cart_price_wrap a.login_go {
