@@ -252,7 +252,7 @@ input[value=공지사항] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr:fir
   color: #000 !important;
 }
 
-input[value=공지사항] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr {
+input[value=공지사항] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr:nth-of-type(2) {
   display: flex;
 }
 
@@ -286,7 +286,7 @@ input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr:first-
   color: #000 !important;
 }
 
-input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr {
+input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr:nth-of-type(2) {
   display: flex;
 }
 
