@@ -501,6 +501,10 @@ input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
   width: 95% !important;
 }
 
+.mo_content {
+  position: relative;
+}
+
 .mo_content .cart_price_wrap a {
   padding: 15px !important;
   border-radius: 10px !important;
@@ -509,9 +513,26 @@ input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
   font-size: 14px !important;
   height: auto !important;
   margin-bottom: 10px !important;
-  text-align: center;
+  text-align: center !important;
   border: 1px solid #ddd;
   border-radius: 10px;
+}
+
+.mo_content .order_info_wrap .login_btn {
+  position: absolute;
+  float: none;
+}
+
+.mo_content .order_info_wrap .login_st input {
+  font-size: 14px !important;
+}
+
+.mo_content .order_padding {
+  padding: 0px 2% 20px !important;
+}
+
+.mo_content .cart_price_wrap a.login_go {
+  margin-top: 0 !important;
 }
 
 .layout-bar {
