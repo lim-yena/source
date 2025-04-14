@@ -538,6 +538,10 @@ input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
   margin: 0 auto 40px !important;
 }
 
+input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap a.login_go {
+  margin: 0 !important;
+}
+
 .layout-bar {
   margin: 0 !important;
   padding: 0 !important;
