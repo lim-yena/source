@@ -360,12 +360,12 @@ input[value=고객센터] ~ table > tbody > tr:nth-of-type(2) .cbtn.black:visite
   display: none !important;
 }
 
-#DivOptTable > tbody > tr:nth-of-type(2) table > tbody > tr {
+#DivOptTable > tbody > tr table > tbody > tr {
   display: flex !important;
   flex-wrap: wrap !important;
 }
 
-#DivOptTable > tbody > tr:nth-of-type(2) table > tbody > tr > td {
+#DivOptTable > tbody > tr table > tbody > tr > td {
   width: 100% !important;
   padding: 0 !important;
   border: 0;
