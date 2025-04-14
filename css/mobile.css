@@ -357,7 +357,8 @@ input[value=고객센터] ~ table > tbody > tr:nth-of-type(2) .cbtn.black:visite
   border-radius: 5px !important;
 }
 
-input[value=cart] ~ table:first-of-type > tbody > tr > td[height="2"], input[value=cart] ~ table:first-of-type > tbody > tr > td[bgcolor="484848"] {
+input[value=cart] ~ table:first-of-type > tbody > tr > td[height="2"],
+input[value=cart] ~ table:first-of-type > tbody > tr > td[height="1"][bgcolor="484848"] {
   display: none !important;
 }
 
@@ -464,7 +465,7 @@ input[value=cart] ~ .npTable .ShopTable > tbody > tr > td select {
 }
 
 input[value=cart] ~ .npTable > tbody > tr > td .big.cbtn {
-  width: 100% !important;
+  width: 98% !important;
 }
 
 .layout-bar {
