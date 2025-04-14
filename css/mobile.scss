@@ -133,7 +133,9 @@ input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap a.login_g
 .policy-step .step-box:first-of-type {border-radius:10px 0 0 10px;}
 .policy-step .step-box:last-of-type {border-radius:0 10px 10px 0;}
 
-.bTable textarea {border-radius:10px !important;}
+.bTable > tbody > tr > td > form > table > tbody > tr > td {border:0 !important;}
+.bTable textarea {border-radius:10px !important; border:1px solid #ddd;}
+.newCbtn {border-radius:10px !important;}
 
 
 
