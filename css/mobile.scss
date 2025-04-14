@@ -125,7 +125,8 @@ input[value="orderlist"] ~ div:first-of-type > table > tbody > tr > td .big.cbtn
 .mo_content .order_info_wrap .login_st input {font-size:14px !important; border-radius:5px !important;}
 .mo_content .order_padding {padding: 0 2% !important; margin:0 auto !important;}
 .mo_content .cart_price_wrap a.login_go {margin:0 auto 40px !important;}
-input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap a.login_go {margin:0 !important;}
+input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap {width:86% !important;}
+input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap a.login_go {margin:10px 0 0 !important;}
 
 
 
