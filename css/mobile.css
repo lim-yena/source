@@ -304,6 +304,10 @@ input[value=기획전] ~ input[name=order_review_uid] ~ table > tbody > tr > td 
   display: none !important;
 }
 
+input[value=기획전] ~ input[name=order_review_uid] ~ table > tbody > tr > td > table:nth-of-type(2) {
+  border-top: 1px solid #000;
+}
+
 input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr {
   display: flex;
   flex-direction: column;
@@ -320,6 +324,7 @@ input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > 
   width: 100% !important;
   height: auto !important;
   border: none !important;
+  font-size: 14px !important;
   font-size: 14px !important;
 }
 
