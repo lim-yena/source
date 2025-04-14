@@ -289,17 +289,17 @@ input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > td#i
   padding: 0 !important;
 }
 
-input[value=고객센터] ~ table .gTable2 > tbody {
+input[value=고객센터] ~ table .gTable > tbody {
   display: block;
 }
 
-input[value=고객센터] ~ table .gTable2 > tbody > tr {
+input[value=고객센터] ~ table .gTable > tbody > tr {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
 
-input[value=고객센터] ~ table .gTable2 > tbody > tr > th, input[value=고객센터] ~ table .gTable2 > tbody > tr > td {
+input[value=고객센터] ~ table .gTable > tbody > tr > th, input[value=고객센터] ~ table .gTable2 > tbody > tr > td {
   display: block;
   width: 100%;
   height: auto !important;
