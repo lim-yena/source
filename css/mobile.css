@@ -368,6 +368,8 @@ input[value=cart] ~ table #DivOptTable > tbody > tr table > tbody > tr {
   display: flex !important;
   flex-wrap: wrap !important;
   position: relative;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
 
 input[value=cart] ~ table #DivOptTable > tbody > tr table > tbody > tr > td {
