@@ -136,7 +136,7 @@ input[value=REVIEW] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody
   color: #000 !important;
 }
 
-input[value=REVIEW] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr {
+input[value=REVIEW] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr:nth-of-type(2) {
   display: flex;
 }
 
