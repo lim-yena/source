@@ -75,7 +75,7 @@ input[value="기획전"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr > 
 
 
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table > tbody > tr > td > table:first-of-type {display:none !important;}
-input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr {display:flex; flex-direction: column;}
+input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr {display:flex; flex-direction: column; padding:10px 0 !important; border-bottom:1px solid #ddd;}
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > th, 
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td {width:100% !important; height:auto !important; border:none !important; font-size:14px !important;}
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td input[type="text"],

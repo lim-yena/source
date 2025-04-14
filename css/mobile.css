@@ -307,6 +307,8 @@ input[value=기획전] ~ input[name=order_review_uid] ~ table > tbody > tr > td 
 input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr {
   display: flex;
   flex-direction: column;
+  padding: 10px 0 !important;
+  border-bottom: 1px solid #ddd;
 }
 
 input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr > th,
