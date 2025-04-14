@@ -487,6 +487,10 @@ input[value=orderlist] ~ div:first-of-type .gTable > tbody > tr > td input[type=
   border-radius: 5px !important;
 }
 
+input[value=orderlist] ~ div:first-of-type .gTable > tbody > tr > td .big.cbtn {
+  width: 95% !important;
+}
+
 .layout-bar {
   margin: 0 !important;
   padding: 0 !important;
