@@ -139,7 +139,7 @@ input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap a.login_g
 
 
 input[name="dupInfo"] ~ table .gTable > tbody > tr {display:flex; flex-direction: column; padding:10px 0 !important; border-bottom:1px solid #ddd;}
-input[name="dupInfo"] ~ table .gTable > tbody > tr:first-of-type > td input[type="text"] {width:calc(100% - 100px);}
+input[name="dupInfo"] ~ table .gTable > tbody > tr:first-of-type > td input[type="text"] {width:calc(100% - 100px) !important;}
 input[name="dupInfo"] ~ table .gTable > tbody > tr:first-of-type > td a.chkBtn {width: 100px; display: inline-block; text-align: center; padding: 13px; border-radius: 5px; background: #000;}
 input[name="dupInfo"] ~ table .gTable > tbody > tr > th, input[name="dupInfo"] ~ table .gTable > tbody > tr > td {width:100% !important; height:auto !important; border:none !important; font-size:14px !important;}
 input[name="dupInfo"] ~ table .gTable > tbody > tr > td input[type="text"], input[name="dupInfo"] ~ table .gTable > tbody > tr > td input[type="password"] {width:100%!important; padding:10px !important; border:1px solid #ddd !important; border-radius:5px !important; height:auto !important; margin:0 !important; font-size:14px !important;}

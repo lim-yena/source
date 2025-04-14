@@ -579,7 +579,7 @@ input[name=dupInfo] ~ table .gTable > tbody > tr {
 }
 
 input[name=dupInfo] ~ table .gTable > tbody > tr:first-of-type > td input[type=text] {
-  width: calc(100% - 100px);
+  width: calc(100% - 100px) !important;
 }
 
 input[name=dupInfo] ~ table .gTable > tbody > tr:first-of-type > td a.chkBtn {
