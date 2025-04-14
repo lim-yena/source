@@ -80,6 +80,15 @@ input[value="공지사항"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr
 input[value="공지사항"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr > td#imgSize {border-top: 1px solid #ddd; border-bottom: 1px solid #000; margin:0 !important; width:100% !important;}
 
 
+input[value="기획전"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr:first-of-type > th {display:none;}
+input[value="기획전"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr:first-of-type > td {font-size:20px !important; font-weight: bold !important; color:#000 !important;}
+input[value="기획전"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr {display:flex;}
+input[value="기획전"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr > th, 
+input[value="기획전"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr > td {height:auto !important; padding:0 !important; width:auto !important;}
+input[value="기획전"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr > th {color:#000 !important; font-weight:bold !important; padding-right:10px !important;}
+input[value="기획전"] ~ input[name="s_puid"] ~ table .gTable2 > tbody > tr > td#imgSize {border-top: 1px solid #ddd; border-bottom: 1px solid #000; margin:0 !important; width:100% !important;}
+
+
 
 .layout-bar {margin: 0 !important; padding: 0 !important; width: 100% !important; font-size: 14px !important; border-bottom: 1px solid #ddd !important;}
 .layout-bar .drops_ {top:0 !important; width:240px !important; border-right:1px solid #ddd; width:240px;}
