@@ -299,7 +299,7 @@ input[value=고객센터] ~ table .gTable > tbody > tr {
   width: 100%;
 }
 
-input[value=고객센터] ~ table .gTable > tbody > tr > th, input[value=고객센터] ~ table .gTable2 > tbody > tr > td {
+input[value=고객센터] ~ table .gTable > tbody > tr > th, input[value=고객센터] ~ table .gTable > tbody > tr > td {
   display: block;
   width: 100%;
   height: auto !important;
