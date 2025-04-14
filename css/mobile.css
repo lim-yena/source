@@ -461,7 +461,7 @@ input[value=cart] ~ .npTable .ShopTable > tbody > tr > td select {
   border-radius: 5px !important;
 }
 
-input[value=cart] ~ .npTable .ShopTable > tbody > tr > td .big.cbtn {
+input[value=cart] ~ .npTable > tbody > tr > td .big.cbtn {
   width: 100% !important;
 }
 
