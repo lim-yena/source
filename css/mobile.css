@@ -495,7 +495,7 @@ input[value=orderlist] ~ div:first-of-type .gTable > tbody > tr > td input {
   height: auto !important;
 }
 
-input[value=orderlist] ~ div:first-of-type .gTable > tbody > tr > td .big.cbtn {
+input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
   width: 95% !important;
 }
 
