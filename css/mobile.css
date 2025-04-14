@@ -320,7 +320,8 @@ input[value=고객센터] ~ table .gTable > tbody > tr:first-of-type {
   border-top: 1px solid #000;
 }
 
-input[value=고객센터] ~ table .gTable > tbody > tr > th, input[value=고객센터] ~ table .gTable > tbody > tr > td {
+input[value=고객센터] ~ table .gTable > tbody > tr > th,
+input[value=고객센터] ~ table .gTable > tbody > tr > td {
   display: block;
   width: 100%;
   height: auto !important;
@@ -385,6 +386,30 @@ input[value=cart] ~ table #DivOptTable > tbody > tr table > tbody > tr > td.amou
   top: 0;
   right: 0;
   width: auto !important;
+}
+
+input[value=cart] ~ .npTable .ShopTable > tbody > tr {
+  display: flex;
+}
+
+input[value=cart] ~ .npTable .ShopTable > tbody > tr > th,
+input[value=cart] ~ .npTable .ShopTable > tbody > tr > td {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  border: none !important;
+  font-size: 14px !important;
+}
+
+input[value=cart] ~ .npTable .ShopTable > tbody > tr > th {
+  padding: 8px 5px 2px !important;
+  font-weight: bold;
+}
+
+input[value=cart] ~ .npTable .ShopTable > tbody > tr > td > input {
+  width: 100% !important;
+  padding: 5px 10px !important;
+  height: auto !important;
 }
 
 .layout-bar {
