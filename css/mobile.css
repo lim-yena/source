@@ -305,6 +305,10 @@ input[value=고객센터] ~ table .gTable > tbody > tr {
   padding: 5px 0;
 }
 
+input[value=고객센터] ~ table .gTable > tbody > tr:first-of-type {
+  border-top: 1px solid #000;
+}
+
 input[value=고객센터] ~ table .gTable > tbody > tr > th, input[value=고객센터] ~ table .gTable > tbody > tr > td {
   display: block;
   width: 100%;
@@ -314,7 +318,7 @@ input[value=고객센터] ~ table .gTable > tbody > tr > th, input[value=고객�
 }
 
 input[value=고객센터] ~ table .gTable > tbody > tr > th {
-  padding: 0 0 10px 0 !important;
+  padding: 8px 5px 2px !important;
   font-weight: bold;
 }
 
