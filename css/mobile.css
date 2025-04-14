@@ -564,7 +564,7 @@ input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap a.login_g
 
 .bTable textarea {
   border-radius: 10px !important;
-  border: 1px solid #ddd;
+  border: 1px solid #ddd !important;
 }
 
 .newCbtn {
