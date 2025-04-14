@@ -538,10 +538,6 @@ input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
   margin: 0 auto 40px !important;
 }
 
-.mo_content .cart_price_wrap .clearfix {
-  display: flex;
-}
-
 .layout-bar {
   margin: 0 !important;
   padding: 0 !important;
@@ -607,6 +603,7 @@ body {
   width: 100%;
   z-index: 11;
   background: #fff;
+  padding: 0 !important;
 }
 
 .header .logoArea {

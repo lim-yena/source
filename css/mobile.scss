@@ -125,7 +125,7 @@ input[value="orderlist"] ~ div:first-of-type > table > tbody > tr > td .big.cbtn
 .mo_content .order_info_wrap .login_st input {font-size:14px !important; border-radius:5px !important;}
 .mo_content .order_padding {padding: 0 2% !important;}
 .mo_content .cart_price_wrap a.login_go {margin:0 auto 40px !important;}
-.mo_content .cart_price_wrap .clearfix {display: flex;}
+.mo_content .cart_price_wrap .clearfix {}
 
 
 
@@ -141,7 +141,7 @@ input[value="orderlist"] ~ div:first-of-type > table > tbody > tr > td .big.cbtn
 .layout-bar > div[style="width:70%;float:left;"] {max-width: 240px; border-right: 1px solid #ddd; padding:15px 20px; font-size:14px !important;}
 
 body {margin-top:50px !important;}
-.header {height:50px !important; position:fixed; top:0; left:0; width:100%; z-index:11; background:#fff;}
+.header {height:50px !important; position:fixed; top:0; left:0; width:100%; z-index:11; background:#fff; padding:0 !important;}
 .header .logoArea {line-height:50px !important;}
 div[style*="text-align:right"] {margin:0 !important;}
 
