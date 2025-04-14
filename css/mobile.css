@@ -509,6 +509,9 @@ input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
   font-size: 14px !important;
   height: auto !important;
   margin-bottom: 10px !important;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
 
 .layout-bar {
