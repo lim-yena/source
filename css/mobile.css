@@ -242,6 +242,40 @@ input[value=공지사항] ~ table > tbody > tr:first-of-type > td[height="25"] {
   display: none;
 }
 
+input[value=공지사항] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr:first-of-type > th {
+  display: none;
+}
+
+input[value=공지사항] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr:first-of-type > td {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: #000 !important;
+}
+
+input[value=공지사항] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr {
+  display: flex;
+}
+
+input[value=공지사항] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > th,
+input[value=공지사항] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > td {
+  height: auto !important;
+  padding: 0 !important;
+  width: auto !important;
+}
+
+input[value=공지사항] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > th {
+  color: #000 !important;
+  font-weight: bold !important;
+  padding-right: 10px !important;
+}
+
+input[value=공지사항] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody > tr > td#imgSize {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #000;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
 .layout-bar {
   margin: 0 !important;
   padding: 0 !important;

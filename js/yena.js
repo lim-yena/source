@@ -133,9 +133,15 @@ window.addEventListener("DOMContentLoaded", () =>{
       
     
     
-    document.querySelector('.skin_login').appendChild(Object.assign(document.createElement('div'), { className: 'subTit', textContent: '로그인' }));
+    let skinLogin = document.querySelector('.skin_login');
+    if (skinLogin) {
+      skinLogin.appendChild(Object.assign(document.createElement('div'), { className: 'subTit', textContent: '로그인' }));
+    }
     
-    document.querySelector('.newCbtn').parentElement.classList.add('btm_btn');
+    let newCbtn = document.querySelector('.newCbtn');
+    if (newCbtn) {
+      newCbtn.parentElement.classList.add('btm_btn');
+    }
       
       
       
