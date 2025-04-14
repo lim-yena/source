@@ -113,7 +113,7 @@ input[value="cart"] ~ .npTable > tbody > tr > td .big.cbtn {width:95% !important
 
 input[value="orderlist"] ~ div:first-of-type .gTable > tbody > tr {display:flex; flex-wrap: wrap;}
 input[value="orderlist"] ~ div:first-of-type .gTable > tbody > tr > th, input[value="orderlist"] ~ div:first-of-type .gTable > tbody > tr > td {width:100% !important; height:auto !important;}
-input[value="orderlist"] ~ div:first-of-type .gTable > tbody > tr > td input[type="text"] {width:100% !important; padding:10px !important; border:1px solid #ddd !important; border-radius:5px !important;}
+input[value="orderlist"] ~ div:first-of-type .gTable > tbody > tr > td input {width:100% !important; padding:10px !important; border:1px solid #ddd !important; border-radius:5px !important;}
 input[value="orderlist"] ~ div:first-of-type .gTable > tbody > tr > td .big.cbtn {width:95% !important;}
 
 
@@ -127,7 +127,7 @@ input[value="orderlist"] ~ div:first-of-type .gTable > tbody > tr > td .big.cbtn
 .layout-bar .drops_ .drop_menu {top:100%; min-width:240px;}
 .layout-bar .drops_ .drop_menu .on {top:0; height:initial; line-height:initial; padding:20px 10px; padding: 15px 20px; border-left: 0; font-size:14px !important;}
 .layout-bar .pathCopys {margin-right:20px !important;}
-.layout-bar > div[style="width:70%;float:left;"] {max-width: 240px; border-right: 1px solid #ddd; padding:15px 20px;}
+.layout-bar > div[style="width:70%;float:left;"] {max-width: 240px; border-right: 1px solid #ddd; padding:15px 20px; font-size:14px !important;}
 
 body {margin-top:50px !important;}
 .header {height:50px !important; position:fixed; top:0; left:0; width:100%; z-index:11; background:#fff;}
