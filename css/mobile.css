@@ -546,6 +546,14 @@ input[value="/skins/blockContent/searchPwd.php"] ~ div.cart_price_wrap a.login_g
   margin: 10px 0 0 !important;
 }
 
+.policy-step .step-box:first-of-type {
+  border-radius: 10px 0 0 10px;
+}
+
+.policy-step .step-box:last-of-type {
+  border-radius: 0 10px 10px 0;
+}
+
 .layout-bar {
   margin: 0 !important;
   padding: 0 !important;
