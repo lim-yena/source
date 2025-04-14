@@ -515,3 +515,7 @@ body {
 div[style*="text-align:right"] {
   margin: 0 !important;
 }
+
+.footer div[style="display:none"] {
+  display: block !important;
+}
