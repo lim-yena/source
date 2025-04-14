@@ -289,6 +289,23 @@ input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > td#i
   padding: 0 !important;
 }
 
+input[value=고객센터] ~ table .gTable2 > tbody {
+  display: block;
+}
+
+input[value=고객센터] ~ table .gTable2 > tbody > tr {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+input[value=고객센터] ~ table .gTable2 > tbody > tr > th, input[value=고객센터] ~ table .gTable2 > tbody > tr > td {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  border: none !important;
+}
+
 .layout-bar {
   margin: 0 !important;
   padding: 0 !important;
