@@ -612,6 +612,15 @@ input[name=dupInfo] ~ table .gTable > tbody > tr > td > table {
   width: 100% !important;
 }
 
+input[name=dupInfo] ~ table .gTable > tbody > tr:first-of-type > td > table > tbody > tr > td {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[name=dupInfo] ~ table .gTable > tbody > tr:first-of-type > td > table > tbody > tr > td > div {
+  width: 100%;
+}
+
 .layout-bar {
   margin: 0 !important;
   padding: 0 !important;
