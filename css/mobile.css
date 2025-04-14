@@ -501,7 +501,7 @@ input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
   width: 95% !important;
 }
 
-.mo_content .cart_price_wrap .mo_content .cart_price_wrap a {
+.mo_content .cart_price_wrap a {
   padding: 15px !important;
   border-radius: 10px !important;
   width: 100% !important;
