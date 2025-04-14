@@ -289,6 +289,10 @@ input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > td#i
   padding: 0 !important;
 }
 
+input[value=고객센터] ~ table table:first-of-type {
+  display: none !important;
+}
+
 input[value=고객센터] ~ table .gTable > tbody {
   display: block;
 }
@@ -297,6 +301,8 @@ input[value=고객센터] ~ table .gTable > tbody > tr {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  border-top: 1px solid #ddd;
+  padding: 5px 0;
 }
 
 input[value=고객센터] ~ table .gTable > tbody > tr > th, input[value=고객센터] ~ table .gTable > tbody > tr > td {
@@ -304,6 +310,16 @@ input[value=고객센터] ~ table .gTable > tbody > tr > th, input[value=고객�
   width: 100%;
   height: auto !important;
   border: none !important;
+  font-size: 14px !important;
+}
+
+input[value=고객센터] ~ table .gTable > tbody > tr > th {
+  padding: 0 0 10px 0 !important;
+  font-weight: bold;
+}
+
+input[value=고객센터] ~ table .gTable > tbody > tr > td > input {
+  width: 100% !important;
 }
 
 .layout-bar {
