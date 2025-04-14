@@ -87,7 +87,7 @@ input[value="고객센터"] ~ table > tbody > tr:nth-of-type(2) .cbtn.black,
 input[value="고객센터"] ~ table > tbody > tr:nth-of-type(2) .cbtn.black:visited {font-size: 14px !important; padding: 8px 16px !important; color: #fff !important; text-align: center !important; font-weight: bold !important; background-color: #212121 !important; border-radius: 5px !important;}
 
 
-input[value="cart"] ~ table:first-of-type > tbody > tr > td[height="2"] {display:none !important;}
+input[value="cart"] ~ table:first-of-type > tbody > tr > td[height="2"], input[value="cart"] ~ table:first-of-type > tbody > tr > td[bgcolor="484848"] {display:none !important;}
 input[value="cart"] ~ table:first-of-type > tbody > tr:nth-of-type(3) {background: #fafafa; border-radius: 10px; padding: 20px; display: flex; height: auto !important; align-items: center; margin-top: 20px;}
 input[value="cart"] ~ table:first-of-type > tbody > tr:nth-of-type(3) > td {height:auto !important;}
 input[value="cart"] ~ table:first-of-type > tbody > tr:nth-of-type(3) > td .stxt01 {color:#ff0000 !important;}
