@@ -358,7 +358,7 @@ input[value=고객센터] ~ table > tbody > tr:nth-of-type(2) .cbtn.black:visite
 }
 
 input[value=cart] ~ table:first-of-type > tbody > tr > td[height="2"],
-input[value=cart] ~ table:first-of-type > tbody > tr > td[height="1"][bgcolor="484848"] {
+input[value=cart] ~ .npTable > tbody > tr > td[height="1"][bgcolor="484848"] {
   display: none !important;
 }
 
