@@ -90,7 +90,7 @@ input[value="고객센터"] ~ table .gTable > tbody {display:block;}
 input[value="고객센터"] ~ table .gTable > tbody > tr {display: flex; flex-wrap: wrap; width: 100%; border-top: 1px solid #ddd; padding: 5px 0;}
 input[value="고객센터"] ~ table .gTable > tbody > tr > th, input[value="고객센터"] ~ table .gTable > tbody > tr > td {display: block; width:100%; height:auto !important; border:none !important; font-size:14px !important;}
 input[value="고객센터"] ~ table .gTable > tbody > tr > th {padding:0 0 10px 0 !important; font-weight:bold;}
-input[value="고객센터"] ~ table .gTable > tbody > tr > td > input {width:100% !important;}
+input[value="고객센터"] ~ table .gTable > tbody > tr > td > input {width:100% !important; padding:10px 15px !important;}
 
 
 
