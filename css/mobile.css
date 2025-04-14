@@ -280,7 +280,7 @@ input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr:nth-of
 }
 
 input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr:nth-of-type(2) {
-  display: flex;
+  display: none;
 }
 
 input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > td#imgSize {
