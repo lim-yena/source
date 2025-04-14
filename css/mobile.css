@@ -290,6 +290,19 @@ input[value=공지사항] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > t
   width: 100% !important;
 }
 
+input[value=공지사항] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > td .file_input {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[value=공지사항] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > td .file_input input {
+  width: calc(100% - 100px);
+}
+
+input[value=공지사항] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > td .file_input label {
+  width: 100px;
+}
+
 input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr:nth-of-type(1) {
   display: none;
 }
