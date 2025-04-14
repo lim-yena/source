@@ -219,7 +219,6 @@ input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > input 
   padding: 15px 10px !important;
   border-bottom: 1px solid #000 !important;
   width: calc(100% - 70px) !important;
-  text-align: center;
 }
 
 input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > input > img {
@@ -287,6 +286,7 @@ input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr:nth-of
 input[value=기획전] ~ input[name=s_puid] ~ table .gTable2 > tbody > tr > td#imgSize {
   margin: 0 !important;
   width: 100% !important;
+  padding: 0 !important;
 }
 
 .layout-bar {
