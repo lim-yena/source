@@ -214,7 +214,13 @@ input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > input 
   height: auto !important;
   padding: 15px 10px !important;
   border-bottom: 1px solid #000 !important;
-  width: calc(100% - 50px);
+  width: calc(100% - 70px) !important;
+  padding: 5px 0;
+  text-align: center;
+}
+
+input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > input > img {
+  filter: invert(1);
 }
 
 input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > a {
@@ -225,6 +231,10 @@ input[value=공지사항] ~ table > tbody > tr:first-of-type > td > div > a {
   color: #fff !important;
   border-radius: 10px;
   height: auto !important;
+}
+
+input[value=공지사항] ~ table > tbody > tr:first-of-type > td[height="25"] {
+  display: none;
 }
 
 .layout-bar {
