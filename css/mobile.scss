@@ -87,17 +87,17 @@ input[value="고객센터"] ~ table > tbody > tr:nth-of-type(2) .cbtn.black,
 input[value="고객센터"] ~ table > tbody > tr:nth-of-type(2) .cbtn.black:visited {font-size: 14px !important; padding: 8px 16px !important; color: #fff !important; text-align: center !important; font-weight: bold !important; background-color: #212121 !important; border-radius: 5px !important;}
 
 
-input[value="cart"] ~ table {display:block !important;}
 input[value="cart"] ~ table #DivOptTable > tbody > tr:first-of-type {display:none !important;}
 input[value="cart"] ~ table #DivOptTable > tbody > tr table > tbody > tr {display:flex !important; flex-wrap:wrap !important; position: relative; border-bottom: 1px solid #ddd; padding: 10px;}
 input[value="cart"] ~ table #DivOptTable > tbody > tr table > tbody > tr > td {width:100% !important; padding:0 !important; border:0 !important; text-align:left !important; background:none !important;}
 input[value="cart"] ~ table #DivOptTable > tbody > tr table > tbody > tr > td.amount_table_3 {position: absolute; top:0; right:0; width:auto !important;}
 
-input[value="cart"] ~ .npTable .ShopTable > tbody > tr {display:flex;}
+
+input[value="cart"] ~ .npTable .ShopTable > tbody > tr {display:flex; flex-wrap: wrap; border-bottom:1px solid #ddd;}
 input[value="cart"] ~ .npTable .ShopTable > tbody > tr > th,
-input[value="cart"] ~ .npTable .ShopTable > tbody > tr > td {display: block; width:100%; height:auto !important; border:none !important; font-size:14px !important;}
-input[value="cart"] ~ .npTable .ShopTable > tbody > tr > th {padding:8px 5px 2px !important; font-weight:bold;}
-input[value="cart"] ~ .npTable .ShopTable > tbody > tr > td > input {width:100% !important; padding:5px 10px !important; height:auto !important;}
+input[value="cart"] ~ .npTable .ShopTable > tbody > tr > td {display: block; width:100%; height:auto !important; border:none !important; font-size:14px !important; background:none !important; font-size:14px !important;}
+input[value="cart"] ~ .npTable .ShopTable > tbody > tr > th {padding:5px 10px 2px !important; font-weight:bold; color:#000; font-weight:bold !important;}
+input[value="cart"] ~ .npTable .ShopTable > tbody > tr > td input {width:100% !important; padding:5px 10px !important; height:auto !important;}
 
 
 

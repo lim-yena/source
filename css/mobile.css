@@ -357,10 +357,6 @@ input[value=고객센터] ~ table > tbody > tr:nth-of-type(2) .cbtn.black:visite
   border-radius: 5px !important;
 }
 
-input[value=cart] ~ table {
-  display: block !important;
-}
-
 input[value=cart] ~ table #DivOptTable > tbody > tr:first-of-type {
   display: none !important;
 }
@@ -390,6 +386,8 @@ input[value=cart] ~ table #DivOptTable > tbody > tr table > tbody > tr > td.amou
 
 input[value=cart] ~ .npTable .ShopTable > tbody > tr {
   display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ddd;
 }
 
 input[value=cart] ~ .npTable .ShopTable > tbody > tr > th,
@@ -399,14 +397,18 @@ input[value=cart] ~ .npTable .ShopTable > tbody > tr > td {
   height: auto !important;
   border: none !important;
   font-size: 14px !important;
+  background: none !important;
+  font-size: 14px !important;
 }
 
 input[value=cart] ~ .npTable .ShopTable > tbody > tr > th {
-  padding: 8px 5px 2px !important;
+  padding: 5px 10px 2px !important;
   font-weight: bold;
+  color: #000;
+  font-weight: bold !important;
 }
 
-input[value=cart] ~ .npTable .ShopTable > tbody > tr > td > input {
+input[value=cart] ~ .npTable .ShopTable > tbody > tr > td input {
   width: 100% !important;
   padding: 5px 10px !important;
   height: auto !important;
