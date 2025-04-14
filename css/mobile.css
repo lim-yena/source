@@ -367,6 +367,14 @@ input[value=cart] ~ table > tbody > tr:nth-of-type(3) {
   margin-top: 20px;
 }
 
+input[value=cart] ~ table > tbody > tr:nth-of-type(3) > td {
+  height: auto !important;
+}
+
+input[value=cart] ~ table > tbody > tr:nth-of-type(3) > td .stxt01 {
+  color: #ff0000 !important;
+}
+
 input[value=cart] ~ table > tbody > tr:nth-of-type(4), input[value=cart] ~ table > tbody > tr:nth-of-type(5) {
   display: none !important;
 }
