@@ -154,9 +154,9 @@ input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > tab
 
 
 /* 회원상세 */
-input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr {display: flex; flex-wrap:wrap; height: auto !important;}
+input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr {display: flex; flex-wrap:wrap; height: auto !important; padding: 10px 0; border-bottom: 1px solid #ddd;}
 input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr > th,
-input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr > td {width:100% !important; height:auto !important;}
+input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr > td {width:100% !important; height:auto !important; border:none !important; padding:0 !important; font-size:14px !important;}
 
 
 
