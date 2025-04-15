@@ -561,6 +561,7 @@ input[value=cart] ~ .npTable > tbody > tr > td .big.cbtn {
   width: 95% !important;
 }
 
+/* 비회원 */
 input[value=orderlist] ~ div:first-of-type .gTable > tbody > tr {
   display: flex;
   flex-wrap: wrap;
@@ -590,6 +591,11 @@ input[value=orderlist] ~ div:first-of-type .gTable > tbody > tr > td input {
 
 input[value=orderlist] ~ div:first-of-type > table > tbody > tr > td .big.cbtn {
   width: 95% !important;
+}
+
+/* 회원 */
+input[value=orderlist] ~ input[name=record_start] ~ div:first-of-type .gTable > tbody > tr:first-of-type > td > input {
+  width: calc(50% - 10px) !important;
 }
 
 .mo_content {
