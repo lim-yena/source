@@ -616,16 +616,23 @@ input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table >
   flex-wrap: wrap;
   height: auto !important;
   padding: 20px 0;
+  position: relative;
 }
 
 input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td {
   padding: 0 !important;
   border: 0 !important;
   font-size: 14px !important;
+  width: calc(100% - 50px) !important;
 }
 
-input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:nth-of-type(2) {
-  width: 100% !important;
+input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:last-of-type {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  text-align: right;
+  transform: translateY(-50%);
+  width: 50px !important;
 }
 
 input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr:nth-last-of-type(-n+3) {
