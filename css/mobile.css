@@ -384,6 +384,12 @@ input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > 
   display: none;
 }
 
+input[value=기획전] ~ input[name=order_review_uid] ~ table > tbody > tr:last-of-type {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
 input[value=고객센터] ~ table table:first-of-type {
   display: none !important;
 }

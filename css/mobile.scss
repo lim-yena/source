@@ -92,6 +92,7 @@ input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbod
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td .file_input .textBox01 {width: calc(100% - 60px) !important;}
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td .file_input label {width: 55px !important; font-size: 14px !important; margin: 0 0 0 5px; height: auto; line-height: initial; display: flex; align-items: center; justify-content: center; border-radius: 5px;}
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable>tbody>tr:nth-of-type(7) {display:none;}
+input[value="기획전"] ~ input[name="order_review_uid"] ~ table > tbody > tr:last-of-type {display: flex; justify-content: center; padding-top:20px;}
 
 
 
