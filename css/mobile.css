@@ -651,7 +651,7 @@ input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr {
   display: flex;
   flex-wrap: wrap;
   height: auto !important;
-  padding: 15px 0;
+  padding: 15px;
   border-bottom: 1px solid #ddd;
 }
 
