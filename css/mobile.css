@@ -607,6 +607,10 @@ input[value=orderlist] ~ input[name=record_start] ~ div:first-of-type .gTable > 
   height: auto !important;
 }
 
+input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr:nth-of-type(-n+2) {
+  display: none !important;
+}
+
 .mo_content {
   position: relative;
   padding: 40px 0;
