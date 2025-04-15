@@ -88,9 +88,9 @@ input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbod
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td {width:100% !important; height:auto !important; border:none !important; font-size:14px !important; font-size:14px !important;}
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td input[type="text"],
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td input[type=password] {width:100% !important; padding:10px !important; border:1px solid #ddd !important; border-radius:5px !important; height:auto !important;}
-input[value="기획전"] ~ input[name="order_review_uid"] ~ table .file_input {float: none; display:flex; flex-wrap: wrap;}
-input[value="기획전"] ~ input[name="order_review_uid"] ~ table .file_input .textBox01 {width: calc(100% - 60px) !important;}
-input[value="기획전"] ~ input[name="order_review_uid"] ~ table .file_input label {width: 60px !important; font-size:14px !important;}
+input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td .file_input {float: none; display:flex; flex-wrap: wrap;}
+input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td .file_input .textBox01 {width: calc(100% - 60px) !important;}
+input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable > tbody > tr > td .file_input label {width: 60px !important; font-size:14px !important;}
 input[value="기획전"] ~ input[name="order_review_uid"] ~ table .gTable>tbody>tr:nth-of-type(7) {display:none;}
 
 

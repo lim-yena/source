@@ -358,17 +358,17 @@ input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > 
   height: auto !important;
 }
 
-input[value=기획전] ~ input[name=order_review_uid] ~ table .file_input {
+input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr > td .file_input {
   float: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-input[value=기획전] ~ input[name=order_review_uid] ~ table .file_input .textBox01 {
+input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr > td .file_input .textBox01 {
   width: calc(100% - 60px) !important;
 }
 
-input[value=기획전] ~ input[name=order_review_uid] ~ table .file_input label {
+input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr > td .file_input label {
   width: 60px !important;
   font-size: 14px !important;
 }
