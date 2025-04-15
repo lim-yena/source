@@ -607,10 +607,6 @@ input[value=orderlist] ~ input[name=record_start] ~ div:first-of-type .gTable > 
   height: auto !important;
 }
 
-input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody {
-  border-bottom: 1px solid #ddd;
-}
-
 input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr:nth-of-type(-n+2) {
   display: none !important;
 }
@@ -621,6 +617,10 @@ input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table >
   height: auto !important;
   padding: 15px 0;
   position: relative;
+}
+
+input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"]:nth-of-type(3) {
+  border-bottom: 1px solid #ddd;
 }
 
 input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td {
