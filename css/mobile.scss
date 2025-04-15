@@ -153,6 +153,10 @@ input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > tab
 input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr:nth-last-of-type(-n+2) {display: none !important;}
 
 
+/* 회원상세 */
+input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr {display: flex; flex-wrap:wrap;}
+
+
 
 .mo_content {position:relative; padding:40px 0;}
 .mo_content .cart_price_wrap a {padding: 15px !important; border-radius: 10px !important; line-height: normal !important; font-size: 14px !important; height: auto !important; margin-bottom: 10px !important; text-align:center !important; border:1px solid #ddd; border-radius:10px;}
