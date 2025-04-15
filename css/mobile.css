@@ -615,6 +615,7 @@ input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table >
   display: flex;
   flex-wrap: wrap;
   height: auto !important;
+  padding: 20px 0;
 }
 
 input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td {
