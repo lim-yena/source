@@ -652,8 +652,10 @@ input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr {
   flex-wrap: wrap;
 }
 
+input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr > th,
 input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr > td {
   width: 100% !important;
+  height: auto !important;
 }
 
 .mo_content {
