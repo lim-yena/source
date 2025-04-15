@@ -650,6 +650,7 @@ input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table >
 input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr {
   display: flex;
   flex-wrap: wrap;
+  height: auto !important;
 }
 
 input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr > th,
