@@ -684,7 +684,7 @@ input[value=orderlist] ~ input[name=f_paymode] ~ table > tbody > tr > td {
 
 input[value=orderlist] ~ input[name=f_paymode] ~ table > tbody > tr > td.pttl {
   font-size: 16px;
-  padding: 30px 0px 10px 0px !important;
+  padding: 30px 10px 10px !important;
   color: #000;
   font-weight: 800;
 }
