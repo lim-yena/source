@@ -614,12 +614,21 @@ input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table >
 input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] {
   display: flex;
   flex-wrap: wrap;
+  height: auto !important;
 }
 
 input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td {
-  width: 100% !important;
   padding: 0 !important;
   border: 0 !important;
+  font-size: 14px !important;
+}
+
+input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:nth-of-type(2) {
+  width: 100% !important;
+}
+
+input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:nth-last-of-type(-n+3) {
+  display: none !important;
 }
 
 .mo_content {
