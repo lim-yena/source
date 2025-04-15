@@ -668,10 +668,6 @@ input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr > td
   font-size: 14px !important;
 }
 
-input[value=orderlist] ~ input[name=f_paymode] ~ table > tbody > tr > td.pttl {
-  display: none !important;
-}
-
 .mo_content {
   position: relative;
   padding: 40px 0;
