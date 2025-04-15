@@ -677,6 +677,17 @@ input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr > td
   padding-bottom: 15px !important;
 }
 
+input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr > th {
+  padding-bottom: 5px !important;
+}
+
+input[value=orderlist] ~ input[name=f_paymode] ~ table > tbody > tr > td.pttl {
+  font-size: 16px;
+  padding: 30px 0px 10px 0px !important;
+  color: #000;
+  font-weight: 800;
+}
+
 .mo_content {
   position: relative;
   padding: 40px 0;
