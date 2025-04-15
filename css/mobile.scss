@@ -149,7 +149,7 @@ input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > tab
 input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] {display: flex; flex-wrap: wrap; height:auto !important; padding:15px 10px; position: relative;}
 input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td {padding:2px 0 !important; border:0 !important; font-size:14px !important; width:calc(100% - 50px) !important; text-align:left !important;}
 input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:nth-of-type(2) a { color:#000; font-size:16px; font-weight: 700;}
-input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:last-of-type {position: absolute; top: 50%; right: 0; text-align: right !important; transform: translateY(-50%); width: 50px !important;}
+input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:last-of-type {position: absolute; top: 50%; right: 10px; text-align: right !important; transform: translateY(-50%); width: 50px !important;}
 input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr:nth-last-of-type(-n+2) {display: none !important;}
 
 
