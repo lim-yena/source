@@ -158,7 +158,7 @@ input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr 
 input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr:first-of-type {border-top:1px solid #000;}
 input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr > th,
 input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr > td {width:100% !important; height:auto !important; border:none !important; padding:0 !important; font-size:14px !important;}
-input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr > td.pttl {display:none !important;}
+input[value="orderlist"] ~ input[name="f_paymode"] ~ table > tbody > tr > td.pttl {display:none !important;}
 
 
 
