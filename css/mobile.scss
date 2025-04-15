@@ -155,6 +155,7 @@ input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > tab
 
 /* 회원상세 */
 input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr {display: flex; flex-wrap:wrap;}
+input[value="orderlist"] ~ input[name="f_paymode"] ~ table .gTable > tbody > tr > td {width:100% !important;}
 
 
 
