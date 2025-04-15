@@ -655,6 +655,10 @@ input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr {
   border-bottom: 1px solid #ddd;
 }
 
+input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr:first-of-type {
+  border-top: 1px solid #000;
+}
+
 input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr > th,
 input[value=orderlist] ~ input[name=f_paymode] ~ table .gTable > tbody > tr > td {
   width: 100% !important;
