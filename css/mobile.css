@@ -355,6 +355,8 @@ input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > 
   border: 1px solid #ddd !important;
   border-radius: 5px !important;
   height: auto !important;
+  line-height: initial !important;
+  font-size: 14px !important;
 }
 
 input[value=기획전] ~ input[name=order_review_uid] ~ table .gTable > tbody > tr > td .file_input {
