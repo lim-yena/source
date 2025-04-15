@@ -611,6 +611,17 @@ input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table >
   display: none !important;
 }
 
+input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td {
+  width: 100% !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
 .mo_content {
   position: relative;
   padding: 40px 0;
