@@ -171,6 +171,10 @@ input[value=REVIEW] ~ input[name=s_puid] ~ table:nth-of-type(2) .gTable2 > tbody
   width: 100% !important;
 }
 
+input[value=REVIEW] ~ input[name=s_puid] ~ table:nth-of-type(2) a[href="javascript:reg_register();"] {
+  display: none !important;
+}
+
 input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td {
   width: 100% !important;
   background: #fff !important;
