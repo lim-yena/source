@@ -149,7 +149,7 @@ input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > tab
 input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] {display: flex; flex-wrap: wrap; height:auto !important; padding:20px 0;}
 input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td {padding:0 !important; border:0 !important; font-size:14px !important; }
 input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:nth-of-type(2) {width:100% !important;}
-input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:nth-last-of-type(-n+3) {display: none !important;}
+input[value="orderlist"] ~ input[name="record_start"] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr:nth-last-of-type(-n+3) {display: none !important;}
 
 
 

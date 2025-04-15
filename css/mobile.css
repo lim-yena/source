@@ -628,7 +628,7 @@ input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table >
   width: 100% !important;
 }
 
-input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr[height="50"] > td:nth-last-of-type(-n+3) {
+input[value=orderlist] ~ input[name=record_start] ~ div:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr:nth-last-of-type(-n+3) {
   display: none !important;
 }
 
