@@ -144,6 +144,7 @@ input[value="orderlist"] ~ div:first-of-type > table > tbody > tr > td .big.cbtn
 
 /* 회원 */
 input[value="orderlist"] ~ input[name="record_start"] ~ div:first-of-type .gTable > tbody > tr:first-of-type > td > input {width:calc(50% - 10px) !important;}
+input[value="orderlist"] ~ input[name="record_start"] ~ div:first-of-type .gTable > tbody > tr > td > select {width:100% !important; border:1px solid #ddd !important; border-radius:5px !important; padding:10px !important; font-size:14px !important;}
 
 
 
