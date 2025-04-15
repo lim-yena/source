@@ -175,8 +175,7 @@ input[value=REVIEW] ~ input[name=s_puid] ~ table:nth-of-type(2) a[href="javascri
   display: none !important;
 }
 
-input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td {
-  width: 100% !important;
+input[value=FAQ] ~ table > tbody > tr > td > table > tbody > tr > td { /*width:100% !important;*/
   background: #fff !important;
   color: #000;
 }
