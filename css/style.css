@@ -1858,18 +1858,22 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 
 #footer_sample06 #footTxt TD {
   color: #999 !important;
+  font-size: 14px !important;
 }
 
 #footup_wrap [class*=inc_t] {
   color: #999 !important;
+  font-size: 14px !important;
 }
 
 #footer_sample06 .pvuse a {
   color: #fff !important;
+  font-size: 14px !important;
 }
 
 #footer_sample06 #footTxt TD a {
   color: #999 !important;
+  font-size: 14px !important;
 }
 
 .hover-effects07 img {
