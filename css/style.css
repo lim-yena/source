@@ -1838,6 +1838,10 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   background: #444 !important;
 }
 
+#header150103 .toplink .top_txt2:not(:last-child):after {
+  background: #444 !important;
+}
+
 #footer_sample06 #footer .copyrights {
   background: #000 !important;
 }
