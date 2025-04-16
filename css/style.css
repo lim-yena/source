@@ -1834,7 +1834,7 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   color: #fff !important;
 }
 
-#header150103 .toplink .top_txt1:not(:first-child):before {
+#header150103 .toplink .top_txt:not(:first-child):before {
   background: #444 !important;
 }
 
@@ -1853,13 +1853,21 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 }
 
 #footer_sample06 #footTxt TD {
-  color: #777 !important;
+  color: #999 !important;
 }
 
-#footup_wrap .inc_t02 {
-  color: #777 !important;
+#footup_wrap [class*=inc_t] {
+  color: #999 !important;
 }
 
 #footer_sample06 .pvuse a {
   color: #fff !important;
+}
+
+#footer_sample06 #footTxt TD a {
+  color: #999 !important;
+}
+
+.hover-effects07 img {
+  filter: invert(1);
 }

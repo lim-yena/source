@@ -401,13 +401,16 @@ table[frame="hsides"] > tbody > tr:last-of-type a {font-size:14px !important; he
 
 #header150103 .top-util {background:#000 !important;}
 #header150103 .toplink a:link {color:#fff !important;}
-#header150103 .toplink .top_txt1:not(:first-child):before {background:#444 !important;}
+#header150103 .toplink .top_txt:not(:first-child):before {background:#444 !important;}
 
 
 #footer_sample06 #footer .copyrights {background:#000 !important;}
 #footer .pvuse_wrap {border-top:1px solid #444 !important; border-bottom:1px solid #444 !important;}
 #footup_wrap .boxtit {color:#fff !important; font-weight: bold;}
-#footer_sample06 #footTxt TD {color:#777 !important;}
-#footup_wrap .inc_t02 {color:#777 !important;}
+#footer_sample06 #footTxt TD {color:#999 !important;}
+#footup_wrap [class*="inc_t"] {color:#999 !important;}
 #footer_sample06 .pvuse a {color:#fff !important;}
+#footer_sample06 #footTxt TD a {color:#999 !important;}
+
+.hover-effects07 img {filter: invert(1);}
 
