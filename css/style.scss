@@ -408,16 +408,17 @@ table[frame="hsides"] > tbody > tr:last-of-type a {font-size:14px !important; he
 #footer_sample06 #footer .copyrights {background:#000 !important;}
 #footer .pvuse_wrap {border-top:1px solid #444 !important; border-bottom:1px solid #444 !important;}
 #footup_wrap .boxtit {color:#fff !important; font-weight: bold;}
-#footer_sample06 #footTxt TD {color:#999 !important;}
-#footup_wrap [class*="inc_t"] {color:#999 !important;}
-#footer_sample06 .pvuse a {color:#fff !important;}
-#footer_sample06 #footTxt TD a {color:#999 !important;}
+#footer_sample06 #footTxt TD {color:#999 !important; font-size:14px !important;}
+#footup_wrap [class*="inc_t"] {color:#999 !important; font-size:14px !important;}
+#footer_sample06 .pvuse a {color:#fff !important; font-size:14px !important;}
+#footer_sample06 #footTxt TD a {color:#999 !important; font-size:14px !important;}
 
 .hover-effects07 img {filter: invert(1);}
 
 
 #divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table {background:#fff !important; height:auto !important;}
-#divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr {display: block; padding:10px;}
+#divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr {display: block; padding:10px; position: relative;}
+#divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(3) > a {position: absolute; top: 50%; transform: translateY(-50%); right: 10px;}
 #divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(3) > a > span {color:#000 !important; font-weight: 600;}
 #divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > span {color:#000 !important;}
 #sosuler_popup > div.swiper-pagination {background: #fff; height: auto !important; position: absolute; top: 15px; right: 15px; left:auto !important; width: auto; display: inline-table; padding: 5px 15px; font-size: 12px; font-weight: 700; border-radius: 30px;}
