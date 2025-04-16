@@ -1876,8 +1876,12 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   font-size: 14px !important;
 }
 
-.hover-effects07 img {
+#footer_sample06 .hover-effects07 img {
   filter: invert(1);
+}
+
+#footer_sample06 .box_ .hover-effects07:hover::before {
+  display: none;
 }
 
 #divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table {
