@@ -26,6 +26,7 @@
 #header150103 .toplink img#login-img, #header150103 .toplink img#cart-img {
   width: 15px;
   margin: 0 4px 2px 0 !important;
+  filter: brightness(0) invert(1);
 }
 
 #header150103 .toplink a:hover img {
