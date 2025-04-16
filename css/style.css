@@ -1853,9 +1853,13 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 }
 
 #footer_sample06 #footTxt TD {
-  color: #aaa !important;
+  color: #777 !important;
 }
 
 #footup_wrap .inc_t02 {
-  color: #aaa !important;
+  color: #777 !important;
+}
+
+#footer_sample06 .pvuse a {
+  color: #fff !important;
 }
