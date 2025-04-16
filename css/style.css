@@ -1886,3 +1886,17 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   color: #000;
   font-weight: 600;
 }
+
+#sosuler_popup > div.swiper-pagination {
+  background: #fff;
+  height: auto !important;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: auto;
+  display: inline-table;
+  padding: 5px 15px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 30px;
+}
