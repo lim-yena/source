@@ -1847,8 +1847,8 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 }
 
 #footer .pvuse_wrap {
-  border-top: 1px solid #444 !important;
-  border-bottom: 1px solid #444 !important;
+  border-top: 1px solid #222 !important;
+  border-bottom: 1px solid #222 !important;
 }
 
 #footup_wrap .boxtit {
