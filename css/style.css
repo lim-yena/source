@@ -1947,4 +1947,6 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   color: #fff;
   font-size: 14px;
   border-radius: 40px;
+  text-align: center;
+  line-height: 40px;
 }
