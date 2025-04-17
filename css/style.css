@@ -1959,6 +1959,10 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   border-radius: 40px;
   text-align: center;
   line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 #mainBanner .prev span, #mainBanner .next span {
