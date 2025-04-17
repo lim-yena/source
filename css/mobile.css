@@ -1000,3 +1000,11 @@ div[style*="text-align:right"] {
   font-weight: 700;
   border-radius: 30px;
 }
+
+#green20_103208 .banArea {
+  height: 100vw !important;
+}
+
+#green20_103208 .banArea iframe {
+  height: 100% !important;
+}
