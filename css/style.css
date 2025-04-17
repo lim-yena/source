@@ -1968,7 +1968,6 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 
 #mainBanner .prev, #mainBanner .next {
   cursor: pointer;
-  padding: 5px;
 }
 
 #mainBanner .prev {
@@ -1990,11 +1989,13 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 #mainBanner .prev::before {
   content: "<";
   color: #fff;
+  padding: 5px;
 }
 
 #mainBanner .next::before {
   content: ">";
   color: #fff;
+  padding: 5px;
 }
 
 #gNaviNum6 > ul {
