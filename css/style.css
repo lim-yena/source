@@ -1925,3 +1925,26 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   font-weight: 700;
   border-radius: 30px;
 }
+
+#mainBanner .btns {
+  justify-content: end !important;
+}
+
+#mainBanner .fraction {
+  padding: 0 20px;
+  background: #000;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+}
+
+#mainBanner .prev, #mainBanner .next {
+  width: 40px;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 40px;
+}
