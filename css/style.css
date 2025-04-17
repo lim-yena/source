@@ -1939,7 +1939,7 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 }
 
 #mainBanner .fraction {
-  padding: 0 30px;
+  padding: 0 40px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 40px;
   color: #fff;
@@ -1990,13 +1990,13 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 #mainBanner .prev::before {
   content: "<";
   color: #fff;
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 
 #mainBanner .next::before {
   content: ">";
   color: #fff;
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 
 #gNaviNum6 > ul {
