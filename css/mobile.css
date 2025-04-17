@@ -958,11 +958,11 @@ div[style*="text-align:right"] {
   right: 10px;
 }
 
-#divpop0 > form > div:nth-child(2) > table > tbody > tr > td:nth-child(3) > a > span {
+#divpop0 > form > div:nth-child(2) > table > tbody > tr > td:nth-child(2) {
   color: #000 !important;
   font-weight: 600;
 }
 
-#divpop0 > form > div:nth-child(2) > table > tbody > tr > td:nth-child(2) > span {
+#divpop0 > form > div:nth-child(2) > table > tbody > tr > td:nth-child(3) > a > font {
   color: #000 !important;
 }
