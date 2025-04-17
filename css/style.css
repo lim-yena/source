@@ -1990,13 +1990,13 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 #mainBanner .prev::before {
   content: "<";
   color: #fff;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 #mainBanner .next::before {
   content: ">";
   color: #fff;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 #gNaviNum6 > ul {
