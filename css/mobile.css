@@ -935,3 +935,7 @@ div[style*="text-align:right"] {
   bottom: 10px;
   position: fixed !important;
 }
+
+#divpop0 .popupContent .swiper-slide {
+  width: 100% !important;
+}
