@@ -929,3 +929,9 @@ div[style*="text-align:right"] {
   border-radius: 10px !important;
   font-weight: bold !important;
 }
+
+#divpop0 {
+  top: auto !important;
+  bottom: 10px;
+  position: fixed !important;
+}
