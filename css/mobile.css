@@ -945,7 +945,7 @@ div[style*="text-align:right"] {
 }
 
 #divpop0 .popupContent img {
-  max-width: auto !important;
+  max-width: none !important;
 }
 
 #divpop0 > form > div:nth-child(2) > table {
