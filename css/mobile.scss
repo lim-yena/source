@@ -221,12 +221,12 @@ div[style*="text-align:right"] {margin:0 !important;}
 .pageNum .this, .pageNum a:hover {border:1px solid  !important; background:#000  !important; color:#fff  !important; border-radius:10px  !important;  font-weight:bold !important;}
 
 
-#divpop0 {top: auto !important; bottom:0; position:fixed !important;}
+#divpop0 {top: auto !important; bottom:0; position:fixed !important; height:100%; background:rgba(0, 0, 0, 0.5)}
 #divpop0 .popupContent {width:100% !important;}
 #divpop0 .popupContent .swiper-slide {width:100% !important;}
 #divpop0 .popupContent img {max-width:none !important; width: 100%;}
 
-
+#divpop0 > form {position: absolute; bottom: 0; left:0;}
 #divpop0 > form > div:nth-child(2) > table {background:#fff !important; height:auto !important; width:100% !important;}
 #divpop0 > form > div:nth-child(2) > table > tbody > tr {display: block; padding:10px; position: relative;}
 #divpop0 > form > div:nth-child(2) > table > tbody > tr > td:nth-child(3) > a {position: absolute; top: 50%; transform: translateY(-50%); right: 10px;}
