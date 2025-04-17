@@ -426,14 +426,14 @@ table[frame="hsides"] > tbody > tr:last-of-type a {font-size:14px !important; he
 
 #mainBanner .btns {justify-content: end !important;}
 #mainBanner .pagenation {display: flex; align-items: center; justify-content: space-between; position:relative;}
-#mainBanner .fraction {padding: 0 20px; background: #000; border-radius: 40px; color: #fff; font-size: 14px; height:40px; line-height: 40px;}
+#mainBanner .fraction {padding: 0 30px; background: #000; border-radius: 40px; color: #fff; font-size: 14px; height:40px; line-height: 40px;}
 #mainBanner .toggleplaybtn {width:40px; height:40px; background:#000; color:#fff; font-size:14px; border-radius:40px; text-align: center; line-height:40px;}
 #mainBanner .prev span, #mainBanner .next span {width:0; height:0; overflow: hidden; z-index: -1; position: absolute;}
 #mainBanner .prev, #mainBanner .next {cursor: pointer; padding:5px;}
 #mainBanner .prev {position:absolute; left:0; top:50%; transform:translateY(-50%); z-index: 1;}
 #mainBanner .next {position:absolute; right:0; top:50%; transform:translateY(-50%); z-index: 1;}
-#mainBanner .prev::before{content:'<';}
-#mainBanner .next::before{content:'>';}
+#mainBanner .prev::before{content:'<'; color:#fff;}
+#mainBanner .next::before{content:'>'; color:#fff;}
 
 
 
