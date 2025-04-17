@@ -1994,14 +1994,26 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 }
 
 #mainBanner .prev::before {
-  content: "<";
-  color: #fff;
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 15px;
+  background-image: url("https://lim-yena.github.io/source/img/icon/left.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 1px center;
   padding: 5px 15px;
 }
 
 #mainBanner .next::before {
-  content: ">";
-  color: #fff;
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 15px;
+  background-image: url("https://lim-yena.github.io/source/img/icon/right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 1px center;
   padding: 5px 15px;
 }
 

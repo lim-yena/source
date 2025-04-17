@@ -432,8 +432,28 @@ table[frame="hsides"] > tbody > tr:last-of-type a {font-size:14px !important; he
 #mainBanner .prev, #mainBanner .next {cursor: pointer;}
 #mainBanner .prev {position:absolute; left:0; top:50%; transform:translateY(-50%); z-index: 1;}
 #mainBanner .next {position:absolute; right:0; top:50%; transform:translateY(-50%); z-index: 1;}
-#mainBanner .prev::before{content:'<'; color:#fff; padding:5px 15px;}
-#mainBanner .next::before{content:'>'; color:#fff; padding:5px 15px;}
+#mainBanner .prev::before{
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 15px;
+    background-image: url("https://lim-yena.github.io/source/img/icon/left.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 1px center;
+    padding:5px 15px;
+}
+#mainBanner .next::before{
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 15px;
+    background-image: url("https://lim-yena.github.io/source/img/icon/right.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 1px center;
+    padding:5px 15px;
+}
 
 
 
