@@ -951,6 +951,7 @@ div[style*="text-align:right"] {
 #divpop0 > form > div:nth-child(2) > table {
   background: #fff !important;
   height: auto !important;
+  width: 100% !important;
 }
 
 #divpop0 > form > div:nth-child(2) > table > tbody > tr {
