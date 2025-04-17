@@ -1928,6 +1928,7 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 
 #mainBanner .btns {
   justify-content: end !important;
+  gap: 10px;
 }
 
 #mainBanner .pagenation {
