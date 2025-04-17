@@ -1936,6 +1936,7 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  width: 110px;
 }
 
 #mainBanner .fraction {
