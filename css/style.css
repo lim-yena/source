@@ -1936,7 +1936,6 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  width: 110px;
 }
 
 #mainBanner .fraction {
@@ -1947,6 +1946,8 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   font-size: 14px;
   height: 40px;
   line-height: 40px;
+  width: 110px;
+  box-sizing: border-box;
 }
 
 #mainBanner .toggleplaybtn {
