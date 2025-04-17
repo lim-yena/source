@@ -932,7 +932,7 @@ div[style*="text-align:right"] {
 
 #divpop0 {
   top: auto !important;
-  bottom: 10px;
+  bottom: 0;
   position: fixed !important;
 }
 
