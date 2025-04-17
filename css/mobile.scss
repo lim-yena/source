@@ -238,3 +238,35 @@ div[style*="text-align:right"] {margin:0 !important;}
 #green20_103208 .banArea {height: 100vw !important;}
 #green20_103208 .banArea iframe {height:100% !important;}
 
+
+#mainBanner_mo .btns {justify-content: end !important; gap:10px;}
+#mainBanner_mo .pagenation {display: flex; align-items: center; justify-content: space-between; position:relative;}
+#mainBanner_mo .fraction {padding: 0 40px; background: rgba(0, 0, 0, 0.5); border-radius: 40px; color: #fff; font-size: 14px; height:40px; line-height: 40px; width: 110px; box-sizing: border-box;}
+#mainBanner .toggleplaybtn {width:40px; height:40px; background:rgba(0, 0, 0, 0.5); color:#fff; font-size:14px; border-radius:40px; text-align: center; line-height:40px; display:flex; align-items: center; justify-content: center; cursor:pointer;}
+#mainBanner_mo .prev span, #mainBanner .next span {width:0; height:0; overflow: hidden; z-index: -1; position: absolute;}
+#mainBanner_mo .prev, #mainBanner .next {cursor: pointer;}
+#mainBanner_mo .prev {position:absolute; left:0; top:50%; transform:translateY(-50%); z-index: 1;}
+#mainBanner_mo .next {position:absolute; right:0; top:50%; transform:translateY(-50%); z-index: 1;}
+#mainBanner_mo .prev::before{
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 15px;
+    background-image: url("https://lim-yena.github.io/source/img/icon/left.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding:0 15px;
+}
+#mainBanner_mo .next::before{
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 15px;
+    background-image: url("https://lim-yena.github.io/source/img/icon/right.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding:0 15px;
+}
+
