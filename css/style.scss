@@ -440,8 +440,8 @@ table[frame="hsides"] > tbody > tr:last-of-type a {font-size:14px !important; he
     background-image: url("https://lim-yena.github.io/source/img/icon/left.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 1px center;
-    padding:5px 15px;
+    background-position: center;
+    padding:0 15px;
 }
 #mainBanner .next::before{
     content: "";
@@ -451,8 +451,8 @@ table[frame="hsides"] > tbody > tr:last-of-type a {font-size:14px !important; he
     background-image: url("https://lim-yena.github.io/source/img/icon/right.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 1px center;
-    padding:5px 15px;
+    background-position: center;
+    padding:0 15px;
 }
 
 
