@@ -1994,3 +1994,7 @@ table[frame=hsides] > tbody > tr:last-of-type a {
 #mainBanner .next::before {
   content: ">";
 }
+
+#gNaviNum6 > ul {
+  display: none;
+}
