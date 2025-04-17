@@ -1940,7 +1940,7 @@ table[frame=hsides] > tbody > tr:last-of-type a {
   line-height: 40px;
 }
 
-#mainBanner .prev, #mainBanner .next {
+#mainBanner .prev, #mainBanner .next, #mainBanner .toggleplaybtn {
   width: 40px;
   height: 40px;
   background: #000;
