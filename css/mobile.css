@@ -939,3 +939,30 @@ div[style*="text-align:right"] {
 #divpop0 .popupContent .swiper-slide {
   width: 100% !important;
 }
+
+#divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table {
+  background: #fff !important;
+  height: auto !important;
+}
+
+#divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr {
+  display: block;
+  padding: 10px;
+  position: relative;
+}
+
+#divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(3) > a {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+#divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(3) > a > span {
+  color: #000 !important;
+  font-weight: 600;
+}
+
+#divpop0 > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(2) > span {
+  color: #000 !important;
+}
