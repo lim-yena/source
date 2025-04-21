@@ -1074,7 +1074,7 @@ div[style*="text-align:right"] {
 }
 
 .tabWrap {
-  border: 0;
+  border: 0 !important;
 }
 
 .tabWrap .tabMenus {
