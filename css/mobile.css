@@ -1009,7 +1009,7 @@ div[style*="text-align:right"] {
   height: 100% !important;
 }
 
-#green20_107665 .pd_thum, #green20_107261 .pd_thum, #green20_107263 .pd_thum, #green20_107260 .pd_thum {
+#green20_107665 .pd_thum, #green20_107261 .pd_thum, #green20_107263 .pd_thum, #green20_107260 .pd_thum, .shop_list ul li .pd_thum {
   border: none !important;
   filter: contrast(0.92);
   border-radius: 10px;
