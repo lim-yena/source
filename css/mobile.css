@@ -1054,7 +1054,7 @@ div[style*="text-align:right"] {
   padding: 40px 0 0 !important;
 }
 
-.pageNum a, .pageNum strong {
+.pageNum a, .pageNum span {
   width: 40px !important;
   height: 40px !important;
   line-height: 40px !important;
