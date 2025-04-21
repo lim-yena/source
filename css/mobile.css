@@ -1018,7 +1018,7 @@ div[style*="text-align:right"] {
   display: block;
 }
 
-#green20_107665 .pd_thum:after {
+#green20_107665 .pd_thum::after {
   position: absolute;
   top: 0;
   left: 0;
