@@ -1055,6 +1055,7 @@ div[style*="text-align:right"] {
 }
 
 .pageNum a, .pageNum span {
+  display: block;
   width: 40px !important;
   height: 40px !important;
   line-height: 40px !important;
