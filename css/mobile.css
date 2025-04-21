@@ -1033,6 +1033,15 @@ div[style*="text-align:right"] {
   border: none !important;
   padding: 0 !important;
   margin: 0 !important;
+  width: 49% !important;
+}
+
+#green20_103214 .gal_box:nth-of-type(even) {
+  margin-right: 2% !important;
+}
+
+#green20_103214 .gal_box:nth-of-type(n+3) {
+  margin-top: 2% !important;
 }
 
 #green20_103214 .gal_img {
