@@ -1071,3 +1071,54 @@ div[style*="text-align:right"] {
   border-radius: 10px !important;
   font-weight: bold !important;
 }
+
+.tabWrap {
+  border: 0;
+}
+
+.tabWrap .tabMenus {
+  display: flex;
+  width: 100%;
+}
+
+.tabWrap .tabMenus li {
+  margin: 0;
+  height: auto;
+  line-height: initial;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #000;
+  background: #fafafa;
+  color: #777;
+}
+
+.tabWrap .tabMenus li.selected {
+  background: #fff;
+  border: 1px solid #000;
+  border-bottom: 1px solid #fff;
+}
+
+.tabWrap .tabMenus li.selected:after {
+  background: #fff;
+}
+
+.tabWrap .tabMenus li.selected a {
+  color: #000 !important;
+  font-weight: 700;
+}
+
+.tabWrap .tabMenus li a {
+  line-height: initial;
+  padding: 20px 0 !important;
+  font-size: 14px !important;
+  display: block;
+}
+
+.tabWrap .tabMenus li:first-of-type {
+  border-radius: 10px 0 0 0;
+}
+
+.tabWrap .tabMenus li:last-of-type {
+  border-radius: 0 10px 0 0;
+}
