@@ -1048,3 +1048,7 @@ div[style*="text-align:right"] {
   border: none !important;
   border-radius: 10px;
 }
+
+#green20_107261 .pd_thum {
+  filter: none !important;
+}
