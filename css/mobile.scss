@@ -239,7 +239,7 @@ div[style*="text-align:right"] {margin:0 !important;}
 #green20_103208 .banArea iframe {height:100% !important;}
 
 
-#green20_107665 .pd_thum, #green20_107261 .pd_thum, #green20_107263 .pd_thum, #green20_107260 .pd_thum, .shop_list ul li .pd_thum, .shop_bx > div, #bx-pager a {
+#green20_107665 .pd_thum, #green20_107261 .pd_thum, #green20_107263 .pd_thum, #green20_107260 .pd_thum, .shop_list ul li .pd_thum, .shop_bx > div {
     border: none !important;
     filter: contrast(0.92);
     border-radius: 10px;
@@ -247,16 +247,7 @@ div[style*="text-align:right"] {margin:0 !important;}
     z-index: 1;
     background-color: #fff !important;
 }
-#green20_107665 .pd_thum::before, #green20_107261 .pd_thum::before, #green20_107263 .pd_thum::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    z-index: -1;
-    content: '';
-}
+#bx-pager a {border:1px solid #ddd !important; border-radius:10px !important;}
 
 #green20_103214 .gal_box {border:none !important; padding:0 !important; margin:0 !important; width:49% !important;}
 #green20_103214 .gal_box:nth-of-type(even) {margin-left:2% !important;}
