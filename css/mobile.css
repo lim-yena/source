@@ -1034,3 +1034,8 @@ div[style*="text-align:right"] {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+#green20_103214 .gal_img {
+  border: none !important;
+  border-radius: 10px;
+}
