@@ -1014,7 +1014,7 @@ div[style*="text-align:right"] {
   filter: contrast(0.92);
   border-radius: 10px;
   position: relative;
-  z-index: 0;
+  z-index: 1;
   display: block;
 }
 
@@ -1024,7 +1024,6 @@ div[style*="text-align:right"] {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #eee;
   border-radius: 10px;
   z-index: -1;
   display: block;
