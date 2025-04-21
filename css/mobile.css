@@ -1037,7 +1037,7 @@ div[style*="text-align:right"] {
 }
 
 #green20_103214 .gal_box:nth-of-type(even) {
-  margin-right: 2% !important;
+  margin-left: 2% !important;
 }
 
 #green20_103214 .gal_box:nth-of-type(n+3) {
