@@ -1047,7 +1047,7 @@ div[style*="text-align:right"] {
   filter: none !important;
 }
 
-.pageNum {
+.pageNum > p {
   display: flex;
   justify-content: center;
   gap: 10px;
