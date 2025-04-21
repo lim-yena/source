@@ -239,6 +239,6 @@ div[style*="text-align:right"] {margin:0 !important;}
 #green20_103208 .banArea iframe {height:100% !important;}
 
 
-#green20_107665 .pd_thum {border:none !important; filter: contrast(0.92); border-radius: 10px; position: relative; z-index: 0; display: block;}
-#green20_107665 .pd_thum::after {position: absolute; top:0; left:0; width:100%; height:100%; background:#eee; border-radius:10px; z-index:-1; display: block;}
+#green20_107665 .pd_thum, #green20_107261 .pd_thum, #green20_107263 .pd_thum {border:none !important; filter: contrast(0.92); border-radius: 10px; position: relative; z-index: 0; display: block;}
+#green20_107665 .pd_thum::after, #green20_107261 .pd_thum::after, #green20_107263 .pd_thum::after {position: absolute; top:0; left:0; width:100%; height:100%; background:#eee; border-radius:10px; z-index:-1; display: block;}
 
