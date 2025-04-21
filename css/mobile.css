@@ -1073,6 +1073,10 @@ div[style*="text-align:right"] {
   font-weight: bold !important;
 }
 
+.pageNum > p > span > span {
+  display: none !important;
+}
+
 .tabWrap {
   border: 0 !important;
 }
