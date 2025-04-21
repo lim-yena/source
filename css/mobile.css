@@ -1014,8 +1014,8 @@ div[style*="text-align:right"] {
   filter: contrast(0.92);
   border-radius: 10px;
   position: relative;
-  z-index: 0; /* Changed from 1 to 0 */
-  display: block;
+  z-index: 1;
+  background-color: #fff !important;
 }
 
 #green20_107665 .pd_thum::before, #green20_107261 .pd_thum::before, #green20_107263 .pd_thum::before {
@@ -1026,6 +1026,5 @@ div[style*="text-align:right"] {
   height: 100%;
   border-radius: 10px;
   z-index: -1;
-  display: block;
   content: "";
 }
